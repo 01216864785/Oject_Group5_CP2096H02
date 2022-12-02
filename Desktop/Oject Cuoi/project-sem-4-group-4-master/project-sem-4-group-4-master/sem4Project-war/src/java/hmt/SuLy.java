@@ -86,7 +86,7 @@ public class SuLy {
         return string;
     }
       public static void main(String[] args) throws MessagingException, AddressException, UnsupportedEncodingException {
-            SuLy.sendMail("hmtuana18122@cusc.ctu.edu.vn", "textmayhmt@gmail.com", "Vantrancodon1","245.782","OnePay","2021-05-20 21:07:45","hjagsdjhsagu867");
+            SuLy.sendMail("hmtuana18122@cusc.ctu.edu.vn", "textmayhmt@gmail.com", "","245.782","OnePay","2021-05-20 21:07:45","hjagsdjhsagu867");
     }
       public static void sendMail(String emailNhan, String emailGui, String pass,String Mony,String CongThanhToan,String date,String MaGiaoDich) throws AddressException, MessagingException, UnsupportedEncodingException {
         final String fromEmail = emailGui;
